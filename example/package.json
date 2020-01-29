@@ -1,0 +1,22 @@
+{
+  "name": "toastlibrarycustom-example",
+  "homepage": "https://pmayur1998.github.io/toastlibrarycustom",
+  "version": "1.1.2",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "^1.1.4",
+    "toastlibrarycustom": "file:.."
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
